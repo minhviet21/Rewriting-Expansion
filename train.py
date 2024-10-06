@@ -134,7 +134,6 @@ def get_args():
     parser.add_argument("--train_file_path", type=str, default="")
     parser.add_argument("--log_dir_path", type=str, default="")
     parser.add_argument('--model_output_path', type=str, default="")
-    parser.add_argument("--weight_decay", type=float, default=0.0)
     parser.add_argument("--collate_fn_type", type=str, default="flat_concat_for_train")
     parser.add_argument("--decode_type", type=str, default="oracle")
     parser.add_argument("--use_prefix", type=bool, default=True)
