@@ -139,7 +139,7 @@ def get_args():
     parser.add_argument("--decode_type", type=str, default="oracle")
     parser.add_argument("--use_prefix", type=bool, default=True)
 
-    parser.add_argument("--per_gpu_train_batch_size", type=int,  default=8)
+    parser.add_argument("--batch_size", type=int,  default=8)
     parser.add_argument("--num_train_epochs", type=int, default=15, help="num_train_epochs")
     parser.add_argument("--max_query_length", type=int, default=32, help="Max single query length")
     parser.add_argument("--max_doc_length", type=int, default=384, help="Max doc length")
